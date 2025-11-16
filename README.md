@@ -4,7 +4,7 @@
 OCR Program Creation Steps
 1. Template Preparation\
 This is the most important step in this method. You must create a "master" or "template" for every letter and number you want to recognize (A-Z and 0-9).
-- ​​Image File Creation: Create a separate image file for each character, such as A.png, B.png, C.png, ..., 0.png, 1.png, ...
+- ​​Image File Creation: Create a separate image file for each character, such as A.png, B.png, C.png, ..., 0.png, 1.png, ..., 9.png
 - Clarity: These template images must be very clear, with a single background color (e.g., black) and a different color for the text (e.g., white).
 - Fixed Size: Very important! All templates should be the same size (e.g., 30x30 pixels) for easy comparison later. You can use cv2.resize() to force the size.
 2. Input Image Processing\
